@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Calculando peso ideal</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="js/funciones_peso_ideal.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Content here -->
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/health_ico_64x64.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    Bootstrap
+                  </a>
+                </div>
+              </nav>
+
+              <!-- Formulario -->
+              <form id="frm_peso_ideal">
+                <div class="mb-3">
+                  <label for="txt_edad" class="form-label">Edad</label>
+                  <input type="number" class="form-control" id="txt_edad" aria-describedby="edad_help">
+                  <div id="edad_help" class="form-text">Ingrese edad entre 1 y 10.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="txt_peso_actual" class="form-label">Peso actual</label>
+                  <input type="number" class="form-control" id="txt_peso_actual" aria-describedby="peso_help">
+                  <div id="peso_help" class="form-text">Ingrese peso actual del niño.</div>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="calcularPesoIdeal()">Calcular</button>
+              </form>
+              <!-- Contenedores de resultado -->
+              <div id="container-result_ideal_weight"></div>
+              <div id="container_result_state_weight"></div>
+              <div id="container_img_result_state_weight"></div>
+        </div>    
+    </body>
+</html>
