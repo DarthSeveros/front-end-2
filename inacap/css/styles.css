@@ -1,0 +1,6 @@
+.card-text {
+    color: rgb(133, 133, 133);
+}
+.card-text:hover {
+    color: red;
+}
