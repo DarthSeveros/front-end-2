@@ -4,3 +4,28 @@
 .card-text:hover {
     color: red;
 }
+
+#centro_de_formacion {
+    background-image: url(../img/organizacion-cft.jpg);
+}
+
+#instituto_profesional {
+    background-image: url(../img/organizacion-ip.jpg);
+}
+
+#universidad_tecnologica {
+    background-image: url(../img/organizacion-univ.jpg);
+}
+
+#universidad_tecnologica, #instituto_profesional, #centro_de_formacion {
+    height: 250px;
+    width: 450px;
+    padding: 100px;
+    margin: 50px;
+    color: #fff;
+}
+
+#agenda_eventos {
+    columns: 1fr 2fr;
+    gap: 20px;
+}
