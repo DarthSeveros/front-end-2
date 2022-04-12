@@ -27,5 +27,8 @@
 
 #agenda_eventos {
     columns: 1fr 2fr;
-    gap: 20px;
+}
+
+#agenda_dates .col{
+    box-shadow: 1px 1px;
 }
