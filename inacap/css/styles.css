@@ -6,15 +6,15 @@
 }
 
 #centro_de_formacion {
-    background-image: url(../img/organizacion-cft.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), black), url(../img/organizacion-cft.jpg);
 }
 
 #instituto_profesional {
-    background-image: url(../img/organizacion-ip.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), black), url(../img/organizacion-ip.jpg);
 }
 
 #universidad_tecnologica {
-    background-image: url(../img/organizacion-univ.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), black), url(../img/organizacion-univ.jpg);
 }
 
 #universidad_tecnologica, #instituto_profesional, #centro_de_formacion {
@@ -23,6 +23,7 @@
     padding: 100px;
     margin: 50px;
     color: #fff;
+    background-size: cover;
 }
 
 #agenda_eventos {
