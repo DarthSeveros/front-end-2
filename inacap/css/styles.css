@@ -1,8 +1,19 @@
+#header {
+    position: absolute;
+    z-index: 100;
+}
+
 .card-text {
     color: rgb(133, 133, 133);
 }
 .card-text:hover {
     color: red;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0px 0px 10px 2px rgb(206, 206, 206);
+    border-radius: 0;
 }
 
 #centro_de_formacion {
@@ -26,10 +37,18 @@
     background-size: cover;
 }
 
+.pointer:hover {
+    cursor: pointer;
+}
+
 #agenda_eventos {
     columns: 1fr 2fr;
 }
 
 #agenda_dates .col{
     box-shadow: 1px 1px;
+}
+
+.grey-container {
+    background-color: #f0f0f0;
 }
